@@ -89,15 +89,38 @@ strong {
   color:white;
 }
 #sidebar {
+  background-color: #384047;
   position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 60px;
+  text-align: center;
 }
 #page-content {
-  margin-left: 300px;
+  margin-left: 50px;
+}
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #788188;
+}
+#sidebar .fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 iframe {
   margin-top: 20px;
+  border-radius: 10px;
 }
