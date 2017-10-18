@@ -5,7 +5,6 @@ body {
   font-size: 14px;
   line-height: 15px;
 }
-
 h1,
 h2,
 h3 {
@@ -14,7 +13,6 @@ h3 {
   font-size: 17px;
   line-height: 17px;
 }
-
 h2 {
   color: #41362F;
 }
@@ -22,17 +20,14 @@ a {
   text-decoration: none;
   color:#989898;
 }
-
 a:hover {
   color:#CF3539;
 }
-
 .container {
   width: 700px;
   margin: 0 auto; /* This automatically sets left/right margins */
   text-align: center;
 }
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -51,7 +46,6 @@ a:hover {
     width: 300px;
   }
 }
-
 .img-circle {
   border-radius: 50%;
 }
@@ -65,25 +59,20 @@ a:hover {
   padding: 20px;
   margin: 20px;
 }
-
 .profile_pic {
   width: 150px;
 }
-
 strong {
   color: #41362F;
 }
-
 .game_image {
   width: 200px;
   border-radius: 6px;
 }
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
 }
-
 .list-inline {
   padding-left: 0px;
 }
@@ -98,4 +87,17 @@ strong {
 }
 .white-text {
   color:white;
+}
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 300px;
+}
+iframe {
+  margin-top: 20px;
 }
